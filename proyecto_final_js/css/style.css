@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #333;
+  padding: 20px;
+}
+
+.contenedor-principal {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  margin-bottom: 16px;
+  color: #2c3e50;
+}
+
+.formulario, .barra-acciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.feedback {
+  min-height: 20px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.grid-usuarios {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tarjeta-usuario {
+  border: 1px solid #e0e0e0;
+  padding: 12px 16px;
+  border-radius: 6px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-eliminar {
+  background-color: #e74c3c;
+  padding: 6px 12px;
+}
+
+.btn-eliminar:hover {
+  background-color: #c0392b;
+}

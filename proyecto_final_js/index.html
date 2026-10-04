@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Compra</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <main class="contenedor-principal">
+    <h1>Simulador de Compra</h1>
+
+    <section class="barra-acciones">
+      <input type="text" id="inputBuscar" placeholder="Buscar producto..." />
+      <button type="button" id="btnOrdenar">Ordenar por precio</button>
+      <button type="button" id="btnVaciar" class="btn-peligro">Vaciar carrito</button>
+    </section>
+
+    <p id="mensajeFeedback" class="feedback"></p>
+    <p id="mensajeEstado"></p>
+
+    <section>
+      <h2>Productos disponibles</h2>
+      <div id="contenedor-productos" class="grid-usuarios"></div>
+    </section>
+
+    <section>
+      <h2>Carrito</h2>
+      <div id="contenedor-carrito" class="grid-usuarios"></div>
+      <p id="mensajeTotal"></p>
+      <button type="button" id="btnFinalizar">Finalizar compra</button>
+    </section>
+  </main>
+</body>
+</html>

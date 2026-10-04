@@ -1,0 +1,7 @@
+[
+  {"id":1,"nombre":"Notebook Lenovo IdeaPad","categoria":"Tecnología","precio":1250000,"stock":5},
+  {"id":2,"nombre":"Mouse Logitech M170","categoria":"Accesorios","precio":18500,"stock":12},
+  {"id":3,"nombre":"Teclado Redragon Kumara","categoria":"Accesorios","precio":62000,"stock":8},
+  {"id":4,"nombre":"Monitor Samsung 24\"","categoria":"Tecnología","precio":285000,"stock":6},
+  {"id":5,"nombre":"Auriculares JBL Tune 520BT","categoria":"Audio","precio":95000,"stock":10}
+]
